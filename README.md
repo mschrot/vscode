@@ -4,12 +4,12 @@
 ✅ Was die Einstellungen bewirken:
 Automatische Formatierung beim Tippen und Speichern mit autopep8
 
-📌 Deaktiviert Mini-Map, überflüssige Hinweise und Glyphen
+1️⃣ Deaktiviert Mini-Map, überflüssige Hinweise und Glyphen
 
-📌 Große, gut lesbare Schrift (Editor & Terminal)
+2️⃣ Große, gut lesbare Schrift (Editor & Terminal)
 
-📌 Blendet den störenden Text „Open Chat (Ctrl + I)...“ in leeren Dateien aus
+3️⃣ Blendet den störenden Text „Open Chat (Ctrl + I)...“ in leeren Dateien aus
 
-📌 Themen, Farben, Rand- und Scrollbalken-Anpassungen
+4️⃣ Themen, Farben, Rand- und Scrollbalken-Anpassungen
 
-📌 Schnellstart über Code Runner für Python-Skripte
+5️⃣ Schnellstart über Code Runner für Python-Skripte
