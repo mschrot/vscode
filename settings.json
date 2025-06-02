@@ -1,0 +1,61 @@
+{
+    "[python]": {
+        "editor.formatOnType": true, // Code wird beim Tippen automatisch formatiert (nur für Python)
+        "editor.defaultFormatter": "ms-python.autopep8" // Verwendung von autopep8 als Standard-Formatter für Python
+    },
+    "workbench.iconTheme": "material-icon-theme", // Verwendung des Icon-Themes "Material"
+    "workbench.colorTheme": "Bluloco Dark", // Verwendung des Farbschemas "Bluloco Dark"
+    "editor.formatOnSave": true, // Automatische Formatierung beim Speichern
+    "workbench.layoutControl.enabled": false, // Deaktiviert das Layout-Steuerelement im Editor
+    "code-runner.clearPreviousOutput": true, // Löscht vorherige Ausgaben vor neuem Run im Code Runner
+    "code-runner.showExecutionMessage": false, // Zeigt keine Ausführungsnachricht bei Code Runner
+    "code-runner.saveFileBeforeRun": true, // Speichert die Datei automatisch vor dem Ausführen mit Code Runner
+    "editor.accessibilityPageSize": 12, // Seitenlänge für Barrierefreiheit im Editor
+    "editor.minimap.enabled": false, // Deaktiviert die Mini-Map rechts im Editor
+    "editor.lineHeight": 24, // Zeilenhöhe im Editor
+    "editor.hover.delay": 1500, // Verzögerung beim Anzeigen von Tooltips (in Millisekunden)
+    "editor.glyphMargin": false, // Deaktiviert die Glyphen (z. B. Breakpoints) im Rand
+    "editor.fontSize": 22, // Schriftgröße im Editor
+    "editor.letterSpacing": 0.3, // Buchstabenabstand
+    "editor.mouseWheelZoom": true, // Erlaubt das Zoomen mit dem Mausrad
+    "workbench.colorCustomizations": {
+        "statusBar.border": "#206486", // Farbe des Statusleistenrahmens
+        "panel.border": "#59ace2" // Farbe des Panels (z. B. Terminal) Rahmens
+    },
+    "editor.tokenColorCustomizations": {
+        "variables": "#DCDEDF", // Farbe für Variablen
+        "textMateRules": [
+            {
+                "scope": [
+                    // Bereiche, für die Farben angepasst werden
+                    "source",
+                    "variable",
+                    "constant",
+                    "variable.other.constant",
+                    "punctuation.definition.constant",
+                    "constant.other.symbol",
+                    "constant.language.symbol",
+                    "support.constant",
+                    "support.variable.magic.python",
+                    "variable.other.enummember"
+                ],
+                "settings": {
+                    "foreground": "#DCDEDF" // Textfarbe für die definierten Bereiche
+                }
+            }
+        ]
+    },
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf8 && py -u", // Ausführungsbefehl für Python mit UTF-8 Unterstützung
+        "powershell": "powershell -ExecutionPolicy ByPass -File" // Ausführungsbefehl für PowerShell
+    },
+    "scm.inputFontSize": 14, // Schriftgröße im Git-Commit-Eingabefeld
+    "terminal.integrated.fontSize": 18, // Schriftgröße im integrierten Terminal
+    "editor.scrollbar.horizontalScrollbarSize": 14, // Höhe der horizontalen Scrollleiste
+    "editor.insertSpaces": false, // Verwendet Tabs anstelle von Leerzeichen beim Einrücken
+    "files.trimFinalNewlines": true, // Entfernt leere Zeilen am Ende der Datei beim Speichern
+    "editor.wordWrap": "on", // Automatischer Zeilenumbruch im Editor
+    "chat.agent.enabled": false, // Deaktiviert integrierten Chat-Agent (z. B. Copilot Chat)
+    "workbench.startupEditor": "none", // Öffnet keinen Startbildschirm beim Start von VS Code
+    "workbench.editor.empty.hint": "hidden" // Blendet den Hinweis "Open Chat (Ctrl + I)..." in leeren Dateien aus
+}
