@@ -21,7 +21,8 @@
     "editor.insertSpaces": false, // Tabs statt Leerzeichen
 
     // Schriftart (nur eine aktiv lassen)
-    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // Windows-Systemfont
+    //"editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
     // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code (mit Ligaturen)
     // "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro
     // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack
