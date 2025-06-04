@@ -1,5 +1,5 @@
 {
-    // Editor-spezifische Einstellungen für Python
+    // Editor-spezifische Einstellungen für Python, erstellt von Michael Schrot | https://www.youtube.com/@mschrot
     "[python]": {
         "editor.formatOnType": true, // Code wird beim Tippen automatisch formatiert (nur für Python)
         "editor.defaultFormatter": "ms-python.autopep8" // autopep8 als Standard-Formatter für Python
