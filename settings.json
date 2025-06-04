@@ -1,33 +1,52 @@
 {
+    // Editor-spezifische Einstellungen für Python
     "[python]": {
         "editor.formatOnType": true, // Code wird beim Tippen automatisch formatiert (nur für Python)
-        "editor.defaultFormatter": "ms-python.autopep8" // Verwendung von autopep8 als Standard-Formatter für Python
+        "editor.defaultFormatter": "ms-python.autopep8" // autopep8 als Standard-Formatter für Python
     },
-    "workbench.iconTheme": "material-icon-theme", // Verwendung des Icon-Themes "Material"
-    "workbench.colorTheme": "Bluloco Dark", // Verwendung des Farbschemas "Bluloco Dark"
-    "editor.formatOnSave": true, // Automatische Formatierung beim Speichern
-    "workbench.layoutControl.enabled": false, // Deaktiviert das Layout-Steuerelement im Editor
-    "code-runner.clearPreviousOutput": true, // Löscht vorherige Ausgaben vor neuem Run im Code Runner
-    "code-runner.showExecutionMessage": false, // Zeigt keine Ausführungsnachricht bei Code Runner
-    "code-runner.saveFileBeforeRun": true, // Speichert die Datei automatisch vor dem Ausführen mit Code Runner
-    "editor.accessibilityPageSize": 12, // Seitenlänge für Barrierefreiheit im Editor
-    "editor.minimap.enabled": false, // Deaktiviert die Mini-Map rechts im Editor
-    "editor.lineHeight": 24, // Zeilenhöhe im Editor
-    "editor.hover.delay": 1500, // Verzögerung beim Anzeigen von Tooltips (in Millisekunden)
-    "editor.glyphMargin": false, // Deaktiviert die Glyphen (z. B. Breakpoints) im Rand
-    "editor.fontSize": 22, // Schriftgröße im Editor
-    "editor.letterSpacing": 0.3, // Buchstabenabstand
-    "editor.mouseWheelZoom": true, // Erlaubt das Zoomen mit dem Mausrad
+
+    // Allgemeines Erscheinungsbild
+    "workbench.iconTheme": "material-icon-theme", // Icon-Theme "Material"
+    "workbench.colorTheme": "Bluloco Dark", // Farbschema "Bluloco Dark"
+    "workbench.layoutControl.enabled": false, // Deaktiviert das Layout-Steuerelement
     "workbench.colorCustomizations": {
-        "statusBar.border": "#206486", // Farbe des Statusleistenrahmens
-        "panel.border": "#59ace2" // Farbe des Panels (z. B. Terminal) Rahmens
+        "statusBar.border": "#206486", // Rahmenfarbe der Statusleiste
+        "panel.border": "#59ace2" // Rahmenfarbe der Panels (z. B. Terminal)
     },
+    "workbench.editor.empty.hint": "hidden", // Blendet leeren Editor-Hinweis ("Open Chat...") aus
+    "workbench.startupEditor": "none", // Kein Startbildschirm beim Öffnen
+
+    // Editor-Verhalten und Darstellung
+    "editor.formatOnSave": true, // Automatische Formatierung beim Speichern
+    "editor.insertSpaces": false, // Tabs statt Leerzeichen
+
+    // Schriftart (nur eine aktiv lassen)
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
+    // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code (mit Ligaturen)
+    // "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro
+    // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack
+    // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace", // Cascadia Code (mit Ligaturen)
+    // "editor.fontFamily": "'IBM Plex Mono', Consolas, 'Courier New', monospace", // IBM Plex Mono
+    // "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace", // Inconsolata
+
+    "editor.fontSize": 22, // Schriftgröße im Editor
+    "editor.lineHeight": 24, // Zeilenhöhe
+    "editor.letterSpacing": 0.3, // Buchstabenabstand
+    "editor.fontLigatures": true, // Aktiviert Ligaturen (für JetBrains Mono, Fira Code, Cascadia Code empfohlen)
+    "editor.mouseWheelZoom": true, // Zoom mit Mausrad aktivieren
+    "editor.minimap.enabled": false, // Deaktiviert Mini-Map
+    "editor.glyphMargin": false, // Glyphen-Rand deaktivieren (z. B. für Breakpoints)
+    "editor.accessibilityPageSize": 12, // Seitenlänge für Barrierefreiheit
+    "editor.hover.delay": 1500, // Tooltip-Verzögerung (in ms)
+    "editor.scrollbar.horizontalScrollbarSize": 14, // Höhe der horizontalen Scrollleiste
+    "editor.wordWrap": "on", // Zeilenumbruch aktivieren
+
+    // Editor-Farbindividualisierung
     "editor.tokenColorCustomizations": {
         "variables": "#DCDEDF", // Farbe für Variablen
         "textMateRules": [
             {
                 "scope": [
-                    // Bereiche, für die Farben angepasst werden
                     "source",
                     "variable",
                     "constant",
@@ -40,22 +59,28 @@
                     "variable.other.enummember"
                 ],
                 "settings": {
-                    "foreground": "#DCDEDF" // Textfarbe für die definierten Bereiche
+                    "foreground": "#DCDEDF" // Farbe für o. g. Bereiche
                 }
             }
         ]
     },
+
+    // Code Runner Einstellungen
+    "code-runner.clearPreviousOutput": true, // Vorherige Ausgaben vor Run löschen
+    "code-runner.showExecutionMessage": false, // Keine Run-Nachricht anzeigen
+    "code-runner.saveFileBeforeRun": true, // Speichern vor Run erzwingen
     "code-runner.executorMap": {
-        "python": "set PYTHONIOENCODING=utf8 && py -u", // Ausführungsbefehl für Python mit UTF-8 Unterstützung
-        "powershell": "powershell -ExecutionPolicy ByPass -File" // Ausführungsbefehl für PowerShell
+        "python": "set PYTHONIOENCODING=utf8 && py -u", // Python-Ausführung mit UTF-8
+        "powershell": "powershell -ExecutionPolicy ByPass -File" // PowerShell-Ausführung
     },
-    "scm.inputFontSize": 14, // Schriftgröße im Git-Commit-Eingabefeld
-    "terminal.integrated.fontSize": 18, // Schriftgröße im integrierten Terminal
-    "editor.scrollbar.horizontalScrollbarSize": 14, // Höhe der horizontalen Scrollleiste
-    "editor.insertSpaces": false, // Verwendet Tabs anstelle von Leerzeichen beim Einrücken
-    "files.trimFinalNewlines": true, // Entfernt leere Zeilen am Ende der Datei beim Speichern
-    "editor.wordWrap": "on", // Automatischer Zeilenumbruch im Editor
-    "chat.agent.enabled": false, // Deaktiviert integrierten Chat-Agent (z. B. Copilot Chat)
-    "workbench.startupEditor": "none", // Öffnet keinen Startbildschirm beim Start von VS Code
-    "workbench.editor.empty.hint": "hidden" // Blendet den Hinweis "Open Chat (Ctrl + I)..." in leeren Dateien aus
+
+    // Terminal & SCM
+    "terminal.integrated.fontSize": 18, // Terminal-Schriftgröße
+    "scm.inputFontSize": 14, // Git-Commit-Feld Schriftgröße
+
+    // Dateioptionen
+    "files.trimFinalNewlines": true, // Letzte leere Zeilen beim Speichern entfernen
+
+    // Chat / KI-Funktionalität
+    "chat.agent.enabled": false // Deaktiviert Chat-Agent (z. B. Copilot Chat)
 }
