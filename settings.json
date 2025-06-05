@@ -23,12 +23,12 @@
     "editor.insertSpaces": false, // Tabs statt Leerzeichen
 
     // Schriftart (nur eine aktiv lassen) Windows-Systemschriften --> Consolas, Courier New
-    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
+    // "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
     // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code (mit Ligaturen)
     // "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro
     // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack
     // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace", // Cascadia Code (mit Ligaturen)
-    // "editor.fontFamily": "'IBM Plex Mono', Consolas, 'Courier New', monospace", // IBM Plex Mono
+    "editor.fontFamily": "'IBM Plex Mono', Consolas, 'Courier New', monospace", // IBM Plex Mono
     // "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace", // Inconsolata
 
     "editor.fontSize": 22, // Schriftgröße im Editor
