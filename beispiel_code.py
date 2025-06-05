@@ -1,27 +1,52 @@
-def zeige_themen():
-    themen = [
-        "1. Künstliche Intelligenz",
-        "2. Maschinelles Lernen",
-        "3. Webentwicklung",
-        "4. Datenanalyse",
-        "5. Spielentwicklung"
-    ]
+# Ein einfaches Python-Programm, das verschiedene Konzepte demonstriert
 
-    print("Bitte wähle ein Thema:")
-    for thema in themen:
-        print(thema)
+# 1. Variablen und Datentypen
+name = "Anna"          # String
+alter = 25             # Integer
+groesse = 1.68         # Float
+student = True         # Boolean
 
-    wahl = input("Gib die Nummer deines Themas ein: ")
+# 2. Ausgabe mit print()
+print("Hallo, mein Name ist", name)
+print(f"Ich bin {alter} Jahre alt und {groesse}m groß.")
 
-    try:
-        wahl_int = int(wahl)
-        if 1 <= wahl_int <= len(themen):
-            print(f"Du hast '{themen[wahl_int - 1]}' gewählt.")
-        else:
-            print("Ungültige Auswahl. Bitte gib eine Zahl zwischen 1 und 5 ein.")
-    except ValueError:
-        print("Bitte gib eine gültige Zahl ein.")
+# 3. Bedingte Anweisung
+if alter >= 18:
+    print("Ich bin volljährig.")
+else:
+    print("Ich bin minderjährig.")
 
+# 4. Schleife (for-loop)
+print("\nZählen bis 5:")
+for i in range(1, 6):
+    print(i)
 
-if __name__ == "__main__":
-    zeige_themen()
+# 5. Funktion definieren
+def berechne_quadrat(zahl):
+    return zahl ** 2
+
+# Funktion aufrufen
+ergebnis = berechne_quadrat(4)
+print(f"\nDas Quadrat von 4 ist {ergebnis}")
+
+# 6. Liste und Schleife
+tiere = ["Hund", "Katze", "Vogel"]
+print("\nMeine Lieblingstiere:")
+for tier in tiere:
+    print("- " + tier)
+
+# 7. Dictionary
+person = {
+    "name": "Max",
+    "beruf": "Programmierer",
+    "hobbys": ["Lesen", "Schwimmen", "Programmieren"]
+}
+
+# 8. Zugriff auf Dictionary-Elemente
+print(f"\n{person['name']} ist {person['beruf']} und seine Hobbys sind:")
+for hobby in person["hobbys"]:
+    print(f"- {hobby}")
+
+# 9. Benutzereingabe
+eingabe = input("\nWie heißt du? ")
+print(f"Schön dich kennenzulernen, {eingabe}!")
