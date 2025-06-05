@@ -32,15 +32,15 @@
     // "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace", // Inconsolata
 
     "editor.fontSize": 22, // Schriftgröße im Editor
-    "editor.lineHeight": 24, // Zeilenhöhe
+    "editor.lineHeight": 28, // Zeilenhöhe
     "editor.letterSpacing": 0.3, // Buchstabenabstand
     "editor.fontLigatures": false, // Aktiviert Ligaturen (für JetBrains Mono, Fira Code, Cascadia Code)
     "editor.mouseWheelZoom": true, // Zoom mit Mausrad aktivieren
     "editor.minimap.enabled": false, // Deaktiviert Mini-Map
     "editor.glyphMargin": false, // Glyphen-Rand deaktivieren (z. B. für Breakpoints)
-    "editor.accessibilityPageSize": 12, // Seitenlänge für Barrierefreiheit
+    "editor.accessibilityPageSize": 18, // Seitenlänge für Barrierefreiheit
     "editor.hover.delay": 1500, // Tooltip-Verzögerung (in ms)
-    "editor.scrollbar.horizontalScrollbarSize": 14, // Höhe der horizontalen Scrollleiste
+    "editor.scrollbar.horizontalScrollbarSize": 18, // Höhe der horizontalen Scrollleiste
     "editor.wordWrap": "on", // Zeilenumbruch aktivieren
 
     // Editor-Farbindividualisierung
