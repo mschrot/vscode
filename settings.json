@@ -1,5 +1,7 @@
 {
-    // Editor-spezifische Einstellungen für Python, erstellt von Michael Schrot | https://www.youtube.com/@mschrot
+    // VS Code Editor-spezifische Einstellungen für Python Version 1.0 
+    // Erstellt von Michael Schrot | https://www.youtube.com/@mschrot
+    
     "[python]": {
         "editor.formatOnType": true, // Code wird beim Tippen automatisch formatiert (nur für Python)
         "editor.defaultFormatter": "ms-python.autopep8" // autopep8 als Standard-Formatter für Python
@@ -20,9 +22,8 @@
     "editor.formatOnSave": true, // Automatische Formatierung beim Speichern
     "editor.insertSpaces": false, // Tabs statt Leerzeichen
 
-    // Schriftart (nur eine aktiv lassen)
-    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // Windows-Systemfont
-    //"editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
+    // Schriftart (nur eine aktiv lassen) Windows-Systemschriften --> Consolas, Courier New
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
     // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code (mit Ligaturen)
     // "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro
     // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack
