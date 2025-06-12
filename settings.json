@@ -9,7 +9,7 @@
 
     // Allgemeines Erscheinungsbild
     "workbench.iconTheme": "material-icon-theme", // Icon-Theme "Material"
-    "workbench.colorTheme": "Palenight (Mild Contrast)", // Farbschema "Palenight Theme"
+    "workbench.colorTheme": "Cobalt2", // Farbschema "Cobalt2"
     "workbench.layoutControl.enabled": false, // Deaktiviert das Layout-Steuerelement
     "workbench.colorCustomizations": {
         "statusBar.border": "#206486", // Rahmenfarbe der Statusleiste
