@@ -22,14 +22,14 @@
     "editor.formatOnSave": true, // Automatische Formatierung beim Speichern
     "editor.insertSpaces": false, // Tabs statt Leerzeichen
 
-    // Schriftart (nur eine aktiv lassen) Windows-Systemschriften --> Consolas, Courier New
-    // "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono aktiv
-    // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code (mit Ligaturen)
-    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro
-    // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack
-    // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace", // Cascadia Code (mit Ligaturen)
-    // "editor.fontFamily": "'IBM Plex Mono', Consolas, 'Courier New', monospace", // IBM Plex Mono
-    // "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace", // Inconsolata
+    // Schriftart (nur eine aktiv lassen) 1001fonts.com | font.download | fontget.com | fonts.google.com
+    // "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace", // JetBrains Mono Regular
+    // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace", // Fira Code Regular
+    "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace", // Source Code Pro Regular
+    // "editor.fontFamily": "'Hack', Consolas, 'Courier New', monospace", // Hack Regular
+    // "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace", // Cascadia Code Regular
+    // "editor.fontFamily": "'IBM Plex Mono', Consolas, 'Courier New', monospace", // IBM Plex Mono Regular
+    // "editor.fontFamily": "'Inconsolata', Consolas, 'Courier New', monospace", // Inconsolata Regular
 
     "editor.fontSize": 22, // Schriftgröße im Editor
     "editor.lineHeight": 28, // Zeilenhöhe
